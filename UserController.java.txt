@@ -29,7 +29,7 @@ public class UserController{
 
 		return "user/delete";
 	}
-	//회원조회 페이지로 이동	//주석추가
+	//회원조회 페이지로 이동
 	@RequestMapping("/user/select.do")
 	public String select(){
 		return "user/select";
